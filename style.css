@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+    background-color: #F7F7F7;
+    direction: rtl;
+    text-align: right;
+    color: #333333;
+  }
+  
+  header {
+    background-color: #FF6F61;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Almoni Neue', sans-serif;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    font-family: 'Almoni Neue', sans-serif;
+    color: #FF6F61;
+  }
+  
+  button {
+    background-color: #66BB6A;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: 'Assistant', sans-serif;
+  }
+  
